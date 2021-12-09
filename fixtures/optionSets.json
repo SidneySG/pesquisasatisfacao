@@ -1,0 +1,11 @@
+[
+    {
+        "model": "api.optionSet",
+        "fields": {
+            "uid": "default0000",
+            "name": "default",
+            "shortName": "default",
+            "displayName": "default"
+        }
+    }
+]

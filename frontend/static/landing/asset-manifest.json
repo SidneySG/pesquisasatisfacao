@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "https://dev.atendimento.co.mz/landing/build/static/css/main.1359096b.chunk.css",
+    "main.js": "https://dev.atendimento.co.mz/landing/build/static/js/main.2509359d.chunk.js",
+    "runtime-main.js": "https://dev.atendimento.co.mz/landing/build/static/js/runtime-main.7246ae3a.js",
+    "static/css/2.ba754456.chunk.css": "https://dev.atendimento.co.mz/landing/build/static/css/2.ba754456.chunk.css",
+    "static/js/2.3fbbdae1.chunk.js": "https://dev.atendimento.co.mz/landing/build/static/js/2.3fbbdae1.chunk.js",
+    "static/js/3.90c34657.chunk.js": "https://dev.atendimento.co.mz/landing/build/static/js/3.90c34657.chunk.js",
+    "index.html": "https://dev.atendimento.co.mz/landing/build/index.html",
+    "static/js/2.3fbbdae1.chunk.js.LICENSE.txt": "https://dev.atendimento.co.mz/landing/build/static/js/2.3fbbdae1.chunk.js.LICENSE.txt",
+    "static/media/banner-thumb.3b28e97b.webp": "https://dev.atendimento.co.mz/landing/build/static/media/banner-thumb.3b28e97b.webp",
+    "static/media/bannerBg.9f7778a1.png": "https://dev.atendimento.co.mz/landing/build/static/media/bannerBg.9f7778a1.png",
+    "static/media/chat.508086d0.svg": "https://dev.atendimento.co.mz/landing/build/static/media/chat.508086d0.svg",
+    "static/media/cloud.7b1a8015.svg": "https://dev.atendimento.co.mz/landing/build/static/media/cloud.7b1a8015.svg",
+    "static/media/design.69a69b96.svg": "https://dev.atendimento.co.mz/landing/build/static/media/design.69a69b96.svg",
+    "static/media/index.css": "https://dev.atendimento.co.mz/landing/build/static/media/dm-sans-latin-700italic.c24b3efb.woff",
+    "static/media/dropbox.23cd335b.svg": "https://dev.atendimento.co.mz/landing/build/static/media/dropbox.23cd335b.svg",
+    "static/media/editing.b858884f.svg": "https://dev.atendimento.co.mz/landing/build/static/media/editing.b858884f.svg",
+    "static/media/google.c21491bb.svg": "https://dev.atendimento.co.mz/landing/build/static/media/google.c21491bb.svg",
+    "static/media/mozambique.2584cd2f.svg": "https://dev.atendimento.co.mz/landing/build/static/media/mozambique.2584cd2f.svg",
+    "static/media/paypal.099d9303.svg": "https://dev.atendimento.co.mz/landing/build/static/media/paypal.099d9303.svg",
+    "static/media/styles.css": "https://dev.atendimento.co.mz/landing/build/static/media/revicons.e8746a62.woff",
+    "static/media/setting.746b4fd2.svg": "https://dev.atendimento.co.mz/landing/build/static/media/setting.746b4fd2.svg",
+    "static/media/smart.fbb10641.svg": "https://dev.atendimento.co.mz/landing/build/static/media/smart.fbb10641.svg",
+    "static/media/speed.0425d981.svg": "https://dev.atendimento.co.mz/landing/build/static/media/speed.0425d981.svg",
+    "static/media/vector.87742122.svg": "https://dev.atendimento.co.mz/landing/build/static/media/vector.87742122.svg",
+    "static/media/winner.f0a5f93a.svg": "https://dev.atendimento.co.mz/landing/build/static/media/winner.f0a5f93a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7246ae3a.js",
+    "static/css/2.ba754456.chunk.css",
+    "static/js/2.3fbbdae1.chunk.js",
+    "static/css/main.1359096b.chunk.css",
+    "static/js/main.2509359d.chunk.js"
+  ]
+}

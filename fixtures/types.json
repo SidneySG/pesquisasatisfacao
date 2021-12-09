@@ -1,0 +1,26 @@
+[
+    {
+        "model": "api.type",
+        "fields": {
+            "name": "TEXT"
+        }
+    },
+    {
+        "model": "api.type",
+        "fields": {
+            "name": "NUMBER"
+        }
+    },
+    {
+        "model": "api.type",
+        "fields": {
+            "name": "BOOLEAN"
+        }
+    },
+    {
+        "model": "api.type",
+        "fields": {
+            "name": "CHAR"
+        }
+    }
+]

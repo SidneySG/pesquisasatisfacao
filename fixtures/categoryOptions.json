@@ -1,0 +1,18 @@
+[
+    {
+        "model": "api.categoryOption",
+        "fields": {
+            "name": "default",
+            "shortName": "default",
+            "displayName": "default"
+        }
+    },
+    {
+        "model": "api.categoryCombo",
+        "fields": {
+            "name": "default",
+            "shortName": "default",
+            "displayName": "default"
+        }
+    }
+]

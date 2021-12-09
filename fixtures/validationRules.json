@@ -1,0 +1,35 @@
+[
+    {
+        "model": "api.validationrule",
+        "fields": {
+            "rule": "required",
+            "isRegex": false,
+            "helperMessage": "Campo obrigatório",
+            "description": "",
+            "displayName": "Required",
+            "name": "required"
+        }
+    },
+    {
+        "model": "api.validationrule",
+        "fields": {
+            "rule": "positive",
+            "isRegex": false,
+            "helperMessage": "O campo deve ser um número positivo",
+            "description": "",
+            "displayName": "Positive number",
+            "name": "positive"
+        }
+    },
+    {
+        "model": "api.validationrule",
+        "fields": {
+            "rule": "email",
+            "isRegex": false,
+            "helperMessage": "Endereço electronico inválido",
+            "description": "",
+            "displayName": "Email",
+            "name": "email"
+        }
+    }
+]

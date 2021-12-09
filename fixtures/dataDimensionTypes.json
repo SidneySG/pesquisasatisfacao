@@ -1,0 +1,14 @@
+[
+    {
+        "model": "api.dataDimensionType",
+        "fields": {
+            "name": "DISAGGREGATION"
+        }
+    },
+    {
+        "model": "api.dataDimensionType",
+        "fields": {
+            "name": "ATTRIBUTE"
+        }
+    }
+]

@@ -1,0 +1,43 @@
+{
+  "files": {
+    "static/js/0.8d67a79c.chunk.js": "/static/mobile/static/js/0.8d67a79c.chunk.js",
+    "static/js/1.8c8a367a.chunk.js": "/static/mobile/static/js/1.8c8a367a.chunk.js",
+    "static/js/2.87494548.chunk.js": "/static/mobile/static/js/2.87494548.chunk.js",
+    "main.css": "/static/mobile/static/css/main.1359096b.chunk.css",
+    "main.js": "/static/mobile/static/js/main.95fa3379.chunk.js",
+    "runtime-main.js": "/static/mobile/static/js/runtime-main.734eb321.js",
+    "static/js/5.d847b53f.chunk.js": "/static/mobile/static/js/5.d847b53f.chunk.js",
+    "static/js/6.4ad0e226.chunk.js": "/static/mobile/static/js/6.4ad0e226.chunk.js",
+    "static/js/7.f3290eda.chunk.js": "/static/mobile/static/js/7.f3290eda.chunk.js",
+    "static/css/8.03c876f1.chunk.css": "/static/mobile/static/css/8.03c876f1.chunk.css",
+    "static/js/8.3113d53d.chunk.js": "/static/mobile/static/js/8.3113d53d.chunk.js",
+    "static/js/9.d198c9c4.chunk.js": "/static/mobile/static/js/9.d198c9c4.chunk.js",
+    "static/js/10.2f61e62c.chunk.js": "/static/mobile/static/js/10.2f61e62c.chunk.js",
+    "static/css/11.03c876f1.chunk.css": "/static/mobile/static/css/11.03c876f1.chunk.css",
+    "static/js/11.2baf8f26.chunk.js": "/static/mobile/static/js/11.2baf8f26.chunk.js",
+    "static/css/12.16f3c70c.chunk.css": "/static/mobile/static/css/12.16f3c70c.chunk.css",
+    "static/js/12.6515854a.chunk.js": "/static/mobile/static/js/12.6515854a.chunk.js",
+    "static/css/13.51e654c9.chunk.css": "/static/mobile/static/css/13.51e654c9.chunk.css",
+    "static/js/13.a60d242d.chunk.js": "/static/mobile/static/js/13.a60d242d.chunk.js",
+    "static/js/14.b5dc0e10.chunk.js": "/static/mobile/static/js/14.b5dc0e10.chunk.js",
+    "static/js/15.339d26c0.chunk.js": "/static/mobile/static/js/15.339d26c0.chunk.js",
+    "static/js/16.6261b161.chunk.js": "/static/mobile/static/js/16.6261b161.chunk.js",
+    "static/js/17.63c27cac.chunk.js": "/static/mobile/static/js/17.63c27cac.chunk.js",
+    "static/js/18.5de66c20.chunk.js": "/static/mobile/static/js/18.5de66c20.chunk.js",
+    "static/js/19.4abfaf4e.chunk.js": "/static/mobile/static/js/19.4abfaf4e.chunk.js",
+    "static/js/20.f0fbc170.chunk.js": "/static/mobile/static/js/20.f0fbc170.chunk.js",
+    "index.html": "/static/mobile/index.html",
+    "static/js/18.5de66c20.chunk.js.LICENSE.txt": "/static/mobile/static/js/18.5de66c20.chunk.js.LICENSE.txt",
+    "static/js/2.87494548.chunk.js.LICENSE.txt": "/static/mobile/static/js/2.87494548.chunk.js.LICENSE.txt",
+    "static/js/5.d847b53f.chunk.js.LICENSE.txt": "/static/mobile/static/js/5.d847b53f.chunk.js.LICENSE.txt",
+    "static/js/6.4ad0e226.chunk.js.LICENSE.txt": "/static/mobile/static/js/6.4ad0e226.chunk.js.LICENSE.txt",
+    "static/js/7.f3290eda.chunk.js.LICENSE.txt": "/static/mobile/static/js/7.f3290eda.chunk.js.LICENSE.txt",
+    "static/media/getFetch.cjs": "/static/mobile/static/media/getFetch.d7d6010d.cjs"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.734eb321.js",
+    "static/js/6.4ad0e226.chunk.js",
+    "static/css/main.1359096b.chunk.css",
+    "static/js/main.95fa3379.chunk.js"
+  ]
+}

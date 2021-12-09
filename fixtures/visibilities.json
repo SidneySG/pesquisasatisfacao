@@ -1,0 +1,18 @@
+[
+    {
+        "model": "api.visibility",
+        "fields": {
+            "name": "public",
+            "displayName": "Public",
+            "description": ""
+        }
+    },
+    {
+        "model": "api.visibility",
+        "fields": {
+            "name": "find_in_range",
+            "displayName": "Find in range",
+            "description": ""
+        }
+    }
+]

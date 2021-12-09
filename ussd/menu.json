@@ -1,0 +1,93 @@
+{
+    "INITIAL": {
+      "name": "INITIAL",
+      "title": "STM, TRANSPARENCIA E SEGURANÇA",
+      "message": "Introduza o seu NIC",
+      "options": [
+        {"option": "1", "display": "Esqueci do NIC", "window": "ESQUECI_NIC", "active": true},
+        {"option": "2", "display": "Sair", "window": "FIM", "active": true},
+        {"option": "-1", "display": "", "window": "NIC", "active": false}
+      ],
+      "type": "FORM",
+      "auto_process": true,
+      "active": true
+    },
+
+    "ESQUECI_NIC":{
+      "name":"ESQUECI_NIC",
+      "title":"",
+      "message":"Entra em www.e-stm.co.mz",
+      "options": [],
+      "type": "MESSAGE",
+      "auto_process": true,
+      "active": true
+    },
+
+    "FIM":{
+      "name":"FIM",
+      "title":"",
+      "message":"",
+      "options": [],
+      "type": "MESSAGE",
+      "auto_process": true,
+      "active": true
+    },
+  
+    "NIC": {
+      "name": "NIC",
+      "title": "Menú",
+      "message": "Por favor seleccione uma das opcoes",
+      "options": [
+        {"option": "1", "display": "Informação pessoal", "window": "FIM", "active": true},
+        {"option": "2", "display": "Meus terrenos", "window": "FIM", "active": true},
+        {"option": "3", "display": "Meus imóveis", "window": "FIM", "active": true},
+        {"option": "4", "display": "Minhas Actividades Económicas", "window": "FIM", "active": true},
+        {"option": "5", "display": "Impostos/Taxas por pagar", "window": "FIM", "active": true},
+        {"option": "6", "display": "Impostos/Taxas pagos parcialmente", "window": "FIM", "active": true},
+        {"option": "7", "display": "Impostos/Taxas pagos totalmente", "window": "FIM", "active": true},
+        {"option": "8", "display": "Contas para pagamento", "window": "METODO_PGT", "active": true},
+        {"option": "9", "display": "Prazo de Pagamento", "window": "PRAZO_PGT", "active": true},
+        {"option": "0", "display": "Voltar", "window": "INITIAL", "active": true}
+      ],
+      "type": "FORM",
+      "auto_process": true,
+      "active": true
+    },
+  
+    "METODO_PGT": {
+      "name": "METODO_PGT",
+      "title": "Método de pagamento",
+      "message": "Por favor seleccione uma das opcoes",
+      "options": [
+        {"option": "1", "display": "Mbim", "window": "FIM", "active": true},
+        {"option": "2", "display": "BCI", "window": "FIM", "active": true},
+        {"option": "3", "display": "Access Banc", "window": "FIM", "active": true},
+        {"option": "4", "display": "Nedbank", "window": "FIM", "active": true},
+        {"option": "5", "display": "Absa", "window": "FIM", "active": true},
+        {"option": "6", "display": "Standard Bank", "window": "FIM", "active": true},
+        {"option": "6", "display": "Moza Banco", "window": "FIM", "active": true},
+        {"option": "6", "display": "Mpesa", "window": "FIM", "active": true},
+        {"option": "6", "display": "E-mola", "window": "FIM", "active": true},
+        {"option": "6", "display": "Mkesh", "window": "FIM", "active": true},
+        {"option": "0", "display": "Voltar", "window": "NIC", "active": true}
+      ],
+      "type": "FORM",
+      "auto_process": true,
+      "active": true
+    },
+
+    "PRAZO_PGT": {
+      "name": "PRAZO_PGT",
+      "title": "Prazo de Pagamento",
+      "message": "Por favor seleccione uma das opcoes",
+      "options": [
+        {"option": "1", "display": "IPRA", "window": "FIM", "active": true},
+        {"option": "2", "display": "Urbanização", "window": "FIM", "active": true},
+        {"option": "3", "display": "TAE", "window": "FIM", "active": true},
+        {"option": "0", "display": "Voltar", "window": "NIC", "active": true}
+      ],
+      "type": "FORM",
+      "auto_process": true,
+      "active": true
+    }
+  }

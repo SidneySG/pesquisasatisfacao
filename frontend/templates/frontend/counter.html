@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Counter example</title>
+
+    <style>
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            font-size: 18px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        #app {
+            text-align: center;
+        }
+
+        #chat-message-submit {
+            width: 100%;
+            background-color: #4c5baf;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            font-weight: bold;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        #chat-log {
+            width: 100%;
+            height: 306px;
+            overflow: auto;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        body {
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 id="app"></h1>
+    <script>
+
+        const chatSocket = new WebSocket(
+            'ws://' + window.location.host + '/ws/same_url'
+        );
+
+        chatSocket.onmessage = function (e) {
+            const data = JSON.parse(e.data);
+            console.log(data);
+            //document.querySelector('#app').innerHTML += (JSON.stringify(data.message) + '<br/>');
+            document.querySelector('#app').innerHTML = (JSON.stringify(data.message) + '<br/>');
+        };
+
+        chatSocket.onclose = function (e) {
+            console.error('socket closed unexpectedly');
+        };
+    </script>
+</body>
+
+</html>

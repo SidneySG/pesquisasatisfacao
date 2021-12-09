@@ -1,0 +1,146 @@
+[
+    {
+        "model": "api.type",
+        "fields": {
+            "name": "TEXT"
+        }
+    },
+    {
+        "model": "api.type",
+        "fields": {
+            "name": "NUMBER"
+        }
+    },
+    {
+        "model": "api.type",
+        "fields": {
+            "name": "BOOLEAN"
+        }
+    },
+    {
+        "model": "api.type",
+        "fields": {
+            "name": "CHAR"
+        }
+    },
+    {
+        "model": "api.optionSet",
+        "fields": {
+            "uid": "default0000",
+            "name": "default",
+            "shortName": "default",
+            "displayName": "default"
+        }
+    },
+    {
+        "model": "api.dataDimensionType",
+        "fields": {
+            "name": "DISAGGREGATION"
+        }
+    },
+    {
+        "model": "api.dataDimensionType",
+        "fields": {
+            "name": "ATTRIBUTE"
+        }
+    },
+    {
+        "model": "api.categoryOption",
+        "fields": {
+            "uid": "default0000",
+            "name": "default",
+            "shortName": "default",
+            "displayName": "default"
+        }
+    },
+    {
+        "model": "api.categoryCombo",
+        "fields": {
+            "uid": "default0000",
+            "name": "default",
+            "shortName": "default",
+            "displayName": "default"
+        }
+    },
+    {
+        "model": "api.orgUnitLevel",
+        "fields": {
+            "uid": "pais0000000",
+            "name": "Pais",
+            "shortName": "Pais",
+            "displayName": "Pais",
+            "level": 1
+        }
+    },
+    {
+        "model": "api.orgUnitLevel",
+        "fields": {
+            "uid": "provincia00",
+            "name": "Provincia",
+            "shortName": "Provincia",
+            "displayName": "Provincia",
+            "level": 2
+        }
+    },
+    {
+        "model": "api.orgUnitLevel",
+        "fields": {
+            "uid": "distrito000",
+            "name": "Distrito",
+            "shortName": "Distrito",
+            "displayName": "Distrito",
+            "level": 3
+        }
+    },
+    {
+        "model": "api.orgUnit",
+        "fields": {
+            "uid": "mocambique0",
+            "name": "Moçambique",
+            "shortName": "Moçambique",
+            "displayName": "Moçambique"
+        }
+    },
+    {
+        "model": "api.orgUnit",
+        "fields": {
+            "uid": "maputo00000",
+            "name": "Maputo",
+            "shortName": "Maputo",
+            "displayName": "Maputo"
+        }
+    },
+    {
+        "model": "api.validationrule",
+        "fields": {
+            "rule": "required",
+            "isRegex": false,
+            "helperMessage": "Campo obrigatório",
+            "description": "",
+            "displayName": "Required",
+            "name": "required"
+        }
+    },
+    {
+        "model": "api.validationrule",
+        "fields": {
+            "rule": "positive",
+            "isRegex": false,
+            "helperMessage": "O campo deve ser um número positivo",
+            "description": "",
+            "displayName": "Positive number",
+            "name": "positive"
+        }
+    },
+    {
+        "model": "api.validationrule",
+        "fields": {
+            "rule": "email",
+            "isRegex": false,
+            "helperMessage": "Endereço electronico inválido",
+            "description": "",
+            "displayName": "Email",
+            "name": "email"
+        }
+    }
+]
